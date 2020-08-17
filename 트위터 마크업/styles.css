@@ -1,0 +1,17 @@
+.dropdown-menu {
+    height: 0px;
+    overflow: hidden;
+    
+    transition: all 1s;
+}
+
+.sr-Only {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    z-index: -1;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    visibility: hidden;
+}

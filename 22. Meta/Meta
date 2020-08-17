@@ -1,0 +1,15 @@
+meta 태그
+: title, link, style, script로는 표현할 수 없는 것을 meta에 표현
+  2개의 필수 속성이 있다.
+  1. name : 정의하려는 메타데이터의 종류를 나타낸다.
+  2. content : 메타데이터의 값
+  
+  meta 태그중 viewport가 중요하다! ( 필수!!! )
+  반응형 웹으로 만들게 하기 위해서 viewport를 사용한다.
+  
+  name은 viewport로 사용하고, content는 width=device-width, initial-scale = 1.0 으로 사용한다!
+  
+  그 외에도 author는 작성자를 나타내고, 
+  keywords는 웹 페이지의 키워드를 나타낸다.
+  
+  description 은 페이지의 설명을 나타낸다.

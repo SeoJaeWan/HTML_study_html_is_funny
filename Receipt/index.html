@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receipt</title>
+
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <h1>
+        Bill sharing request
+        <span>from SeoJW</span>
+    </h1>
+
+    <div class="receipt">
+        <span aria-label="Issued on June 24, 20xx">
+            24.06.20xx
+        </span>
+        <!-- 영수증이 언제 발행되었다 할때 Issued를 사용 -->
+        <h2>
+            McDonald's
+        </h2>
+        <strong class='barcode'>
+            <!-- 그냥 img 태그를 사용해도 되지만 바코드는 중요한 요소기 때문에 strong을 활용 -->
+            <img src="./assets/barcode.svg" alt="">
+        </strong>
+
+        <div>
+            <dl>
+                <div>
+                    <dt>
+                        Coke Light - 0.3
+                        <span aria-label="litter">L</span>
+                        <!-- L를 스크린 리더로 읽으면 리터가 아닌 L이라고 읽어 따로 처리 -->
+                    </dt>
+                    <dd>&#36;1.50</dd>
+
+                </div>
+                <div>
+                    <dt>
+                        Heineken Beer - 0.5
+                        <span aria-label="litter">L</span>
+                    </dt>
+                    <dd>&#36;3.25</dd>
+                </div>
+                <div>
+                    <dt>
+                        Chicken McNuggets
+                    </dt>
+                    <dd>&#36;21.00</dd>
+                </div>
+            </dl>
+
+            <dl>
+                <dt>In total</dt>
+                <dd>
+                    <strong>&#36;25.75</strong>
+                </dd>
+            </dl>
+            
+            <a href="http://localhost:4000/board/posts/download/1591255605705이맛이제~.png">asddsaasdasdasd</a>
+        </div>
+    </div>
+    
+    <script>
+    
+        
+        
+    </script>
+</body></html>

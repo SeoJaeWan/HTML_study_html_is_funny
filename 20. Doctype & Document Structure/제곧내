@@ -1,0 +1,27 @@
+Doctype과 html 기본 골격에 대해서 배운단다!
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+이것이 기본 규격!
+
+<!DOCTYPE html> 
+=> 지금부터 html5로 문서를 작성한다는 뜻이다.
+
+<html> </html> 
+=> html의 시작과 끝을 정의 (root 태그라고도 한다!)
+   안에는 head 태그와 body 태그만 작성이 가능
+   
+<body> </body>
+=> 웹 문서에서 보여주는 모든 컨텐츠를 나타낸다.
+
+<head> </head>
+=> 웹 문서에 관한 중요한 meta 데이터를 선언할 때 사용한다.

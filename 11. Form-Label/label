@@ -1,0 +1,7 @@
+label 태그는 폼 양식에 이름을 붙여주는 태그
+
+label 태그를 사용할 때 for이라는 태그를 사용한다.
+for은 연결시키고자 하는 input 필드의 id 값을 넣어주면 된다.
+
+<label for="user-name">이름</label>
+<input type="text" id = "user-name">

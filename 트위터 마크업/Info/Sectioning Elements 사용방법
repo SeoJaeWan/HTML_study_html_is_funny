@@ -1,0 +1,21 @@
+Sectioning Elements의 요소는 section, article, nav, aside 4개가 있다.
+
+Sectioning => 단원을 말한다.
+
+공통으로 지켜야 할 룰이 존재한다.
+=> 반드시 heading(h) 태그를 작성해야 한다.
+
+ex)
+<section>
+    <h1>섹션</h1>
+    <p>본문</p>
+</section>
+
+section 태그는 heading이 반드시 필요하고 가장 만만하게 사용할 수 있다.
+(논리적으로 완결된 집합체인 경우 div대신 sction으로 쓰면된다 ㅋㅋㄹㅋㅋ ㅃㅃ)
+
+article 태그는 안에 들어있는 컨텐츠가 컨텐츠로써 완결성이 있을 경우 section보다 더 사용된다.
+=> 정보로써 완결성이 있는 경우 사용되므
+
+aside 태그는 본문 내용과는 살짝 다른 정보를 나타낼때 사용한다.
+=> 사이드바나 위젯 광고 등에 사용한다.
